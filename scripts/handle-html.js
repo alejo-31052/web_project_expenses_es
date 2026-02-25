@@ -124,6 +124,7 @@ function updateBalanceElementColor() {
   // Guardamos el resultado del return en una constante local
   const colorCalculado = updateBalanceColor();
 
+
   const colorClasses = [
     "stats__item-value_balance_negative",
     "stats__item-value_balance_warning",
