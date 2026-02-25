@@ -14,6 +14,7 @@ totalExpensesValue+=expenseEntries[i][1]
 }
 
 function calculateAverageExpense(){
+    calculateTotalExpense()
     if(expenseEntries.length===0){
         return 0;
     }
